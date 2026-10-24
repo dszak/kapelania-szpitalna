@@ -1,13 +1,12 @@
-OBCHÓD UCK CEGLANA — WERSJA TESTOWA
+KAPELANIA SZPITALNA 2.4 — AKTUALIZACJA
 
-1. Rozpakuj ZIP.
-2. Na Macu otwórz index.html w przeglądarce, aby przetestować zaznaczanie sal.
-3. Aby zainstalować na iPhonie i korzystać offline, prześlij wszystkie pliki do NOWEGO repozytorium GitHub i włącz GitHub Pages (main, /root). Nie nadpisuj aplikacji kolędowej.
-4. Otwórz opublikowany adres w Safari na iPhonie i wybierz Udostępnij > Dodaj do ekranu początkowego.
-5. Przetestuj offline po pierwszym pełnym załadowaniu online.
-6. Wykonuj kopie zapasowe przez przycisk Zapisz kopię.
+Przed wgraniem wykonaj kopię zapasową na iPhonie.
+Wgraj do GŁÓWNEGO katalogu repozytorium kapelania-szpitalna wszystkie pliki:
+index.html, sw.js, manifest.webmanifest, icon-192.png, icon-512.png.
+Nie wgrywaj ZIP jako pojedynczego pliku. Zatwierdź Commit changes.
+Po publikacji odśwież aplikację na iPhonie (czasem zamknij i otwórz ponownie).
 
-UWAGA: prototyp przeznaczony wyłącznie do testów, bez nazwisk i innych danych identyfikujących pacjentów. Zaznaczenia sal nie dowodzą, że konkretny pacjent nadal przebywa w sali lub wyraża zgodę na przyjęcie Komunii.
+Pierwsze uruchomienie na tym samym adresie GitHub Pages próbuje skopiować stare zaznaczenia z 'uck-obchod-v1' do nowego klucza 'kapelania-v2'. Stary klucz nie jest usuwany. Nie jest to synchronizacja między urządzeniami.
+W Ustawieniach można importować kopie z v1 i v2. Import starszej kopii zastępuje listę sal, ale zachowuje zadania.
 
-Nieaktywne oddziały III L (zabiegi jednodniowe) i V (remont) nie są na trasie.
-Liczba łóżek dla sali 317 nie została podana; nie jest wykorzystywana w tym module.
+UWAGA: Aplikacja NIE MA logowania, szyfrowania, synchronizacji ani powiadomień push. NIE jest przeznaczona do przechowywania rzeczywistych danych o pacjentach, prośbach o sakramenty lub planowanych spotkaniach. Do czasu wdrożenia zabezpieczeń używaj tylko fikcyjnych danych.
