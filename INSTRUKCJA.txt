@@ -1,9 +1,1 @@
-Kapelania Szpitalna 2.6 TEST — mapa pięter.
-
-Na dziś: zgłoszenia, następnie mapa oddziałów piętrami (dwa kafelki obok siebie), a na końcu podsumowanie.
-III piętro, lewa strona: Okulistyka — oddział dzienny, bez odwiedzin (tylko na mapie).
-IV P: Endokrynologia.
-Zachowano salę 337 na końcu Okulistyki i kafelek Korytarz w Chirurgii.
-
-TEST: rozpakuj ZIP i otwórz index.html na Macu. Nie aktualizuj GitHuba przed sprawdzeniem.
-Przed każdą aktualizacją zrób kopię JSON. Nie używaj rzeczywistych danych osobowych pacjentów.
+Kapelania 2.7. Wgraj pliki na GitHub. Nie wgrywaj kopii danych JSON. Nie usuwaj aplikacji z iPhone.
