@@ -1,1 +1,5 @@
-Kapelania 2.8: strzałka po prawej stronie nazwy Endokrynologia, w tej samej linii. Pozostałe funkcje bez zmian. Rozpakuj ZIP i wgraj pliki do repozytorium GitHub. Zachowaj kopię zapasową danych.
+Kapelania Szpitalna 2.9 — sala 431
+IV piętro, Endokrynologia: czerwony kafelek 431 z napisem ZAKAZ WEJŚCIA.
+Nie można jej zaznaczyć ani otworzyć zgłoszeń; pomijana przy zaznaczaniu wszystkich sal.
+Przed aktualizacją wykonaj prywatną kopię zapasową JSON. Nie usuwaj aplikacji z iPhone'a.
+Rozpakuj ZIP i wgraj jego sześć plików do repozytorium GitHub.
