@@ -1,12 +1,9 @@
-KAPELANIA SZPITALNA 2.4 — AKTUALIZACJA
+Kapelania Szpitalna 2.6 TEST — mapa pięter.
 
-Przed wgraniem wykonaj kopię zapasową na iPhonie.
-Wgraj do GŁÓWNEGO katalogu repozytorium kapelania-szpitalna wszystkie pliki:
-index.html, sw.js, manifest.webmanifest, icon-192.png, icon-512.png.
-Nie wgrywaj ZIP jako pojedynczego pliku. Zatwierdź Commit changes.
-Po publikacji odśwież aplikację na iPhonie (czasem zamknij i otwórz ponownie).
+Na dziś: zgłoszenia, następnie mapa oddziałów piętrami (dwa kafelki obok siebie), a na końcu podsumowanie.
+III piętro, lewa strona: Okulistyka — oddział dzienny, bez odwiedzin (tylko na mapie).
+IV P: Endokrynologia.
+Zachowano salę 337 na końcu Okulistyki i kafelek Korytarz w Chirurgii.
 
-Pierwsze uruchomienie na tym samym adresie GitHub Pages próbuje skopiować stare zaznaczenia z 'uck-obchod-v1' do nowego klucza 'kapelania-v2'. Stary klucz nie jest usuwany. Nie jest to synchronizacja między urządzeniami.
-W Ustawieniach można importować kopie z v1 i v2. Import starszej kopii zastępuje listę sal, ale zachowuje zadania.
-
-UWAGA: Aplikacja NIE MA logowania, szyfrowania, synchronizacji ani powiadomień push. NIE jest przeznaczona do przechowywania rzeczywistych danych o pacjentach, prośbach o sakramenty lub planowanych spotkaniach. Do czasu wdrożenia zabezpieczeń używaj tylko fikcyjnych danych.
+TEST: rozpakuj ZIP i otwórz index.html na Macu. Nie aktualizuj GitHuba przed sprawdzeniem.
+Przed każdą aktualizacją zrób kopię JSON. Nie używaj rzeczywistych danych osobowych pacjentów.
