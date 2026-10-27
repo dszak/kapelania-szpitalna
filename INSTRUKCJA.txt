@@ -1,1 +1,1 @@
-Kapelania 2.7. Wgraj pliki na GitHub. Nie wgrywaj kopii danych JSON. Nie usuwaj aplikacji z iPhone.
+Kapelania 2.8: strzałka po prawej stronie nazwy Endokrynologia, w tej samej linii. Pozostałe funkcje bez zmian. Rozpakuj ZIP i wgraj pliki do repozytorium GitHub. Zachowaj kopię zapasową danych.
