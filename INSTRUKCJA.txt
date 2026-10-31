@@ -1,17 +1,14 @@
-KAPELANIA SZPITALNA 3.0 — PROTOTYP TESTOWY
+KAPELANIA SZPITALNA 3.1 — WERSJA TESTOWA
 
-1. ZRÓB KOPIĘ obecnych danych w działającej aplikacji 2.9: Ustawienia -> Zapisz kopię. Zachowaj plik JSON w bezpiecznym miejscu.
-2. Wgraj wszystkie pliki z tego ZIP do repozytorium GitHub Pages, zastępując stare pliki. Nie usuwaj repozytorium.
-3. Odśwież aplikację na iPhonie (czasem wymagane ponowne uruchomienie aplikacji po aktualizacji service workera).
-4. Wybierz szpital u góry. Na kafelku sali: dotknięcie przełącza Komunię; przytrzymanie lub „⋯” otwiera liczniki i menu posługi.
-5. W szczegółach sali zmieniaj: łóżka, pacjentów, przyjmujących Komunię. 0 pacjentów oznacza pustą salę i czyści bieżące oznaczenia Komunii i błogosławieństwa, ale nie usuwa zadań i historii.
-6. Po pełnym obchodzie wybierz „Zatwierdź pełną aktualizację szpitala”. Można też zatwierdzić pojedynczy oddział.
-7. Historia pomiarów jest w zakładce Na dziś. Kopia JSON zawiera również liczniki i historię.
+1. Na iPhonie: otwórz dotychczasową aplikację -> Ustawienia -> Zapisz kopię. Zachowaj pobrany JSON w bezpiecznym miejscu.
+2. Na GitHubie: prześlij wszystkie pliki rozpakowanego ZIP do tego samego repozytorium, zastępując pliki poprzedniej wersji (index.html, sw.js, manifest, ikony). Nie usuwaj repozytorium i nie odinstalowuj PWA.
+3. Odczekaj na publikację GitHub Pages i odśwież stronę. W aplikacji na ekranie początkowym może być potrzebne całkowite zamknięcie i ponowne otwarcie, by service worker pobrał aktualizację.
+4. Wybierz szpital dużym kafelkiem. Na dziś: przełączaj Wybrane sale / Pełny obchód. W trybie Wybrane sale w danym oddziale można chwilowo pokazać wszystkie sale.
+5. Obchód: 2 kolumny sal. Dotknij numeru, aby oznaczyć lub odznaczyć Komunię. Osobne przyciski +/- zmieniają liczby pacjentów i przyjmujących Komunię. Szczegóły (⋯ albo przytrzymanie numeru) umożliwiają zmianę liczby łóżek i dodanie zadań.
+6. Liczba pacjentów <= łóżka, liczba przyjmujących Komunię <= pacjenci. Odwiedzających i opiekunów nie wlicza się do tych statystyk. Zmniejszanie pacjentów w razie potrzeby obniża liczbę Komunii.
+7. Procent Komunii na oddziale dziecięcym UCK jest orientacyjny. Do ogólnego procentu Komunii dla UCK NIE wlicza się ani pacjentów, ani Komunii oddziału dziecięcego; w ogólnej liczbie łóżek i pacjentów dzieci są uwzględnione.
+8. Po sprawdzeniu wszystkich czynnych oddziałów ręcznie zatwierdź pełną aktualizację szpitala. Można też osobno zatwierdzić pomiar oddziału. Aplikacja nie tworzy automatycznych dziennych pomiarów. Historia i liczniki znajdują się również w kopii JSON.
 
-UWAGI:
-- To wersja TESTOWA. Nie wprowadzaj danych osobowych ani informacji identyfikujących pacjentów.
-- Dawne zielone sale zachowują oznaczenie, ale mają nieznaną liczbę przyjmujących Komunię do czasu uzupełnienia; dlatego mogą pokazywać „?”.
-- Oddziały zamknięte są zachowane w strukturze, ale pomijane w sumach czynnych oddziałów.
-- Oddział III L zaburzeń nerwicowych MSWiA nie jest częścią rutynowej trasy; nie jest liczony w bieżącym obłożeniu.
-- Statystyka oznacza liczbę osób zwykle przyjmujących Komunię według ostatniej aktualizacji, nie liczbę faktycznie udzielonych Komunii danego dnia.
-- Kopia JSON nie jest szyfrowana. Przechowuj ją bezpiecznie.
+WAŻNE: Nie wpisuj nazwisk, numerów PESEL ani innych danych pozwalających identyfikować pacjentów. Dane są zapisane lokalnie w przeglądarce i nie synchronizują się między urządzeniami. Kopie JSON NIE są szyfrowane.
+
+UWAGA: Poprzednie oznaczenia zielonych sal mogą mieć nieznaną liczbę pacjentów lub przyjmujących Komunię (?) — należy ją uzupełnić. Sale zamknięte nie wchodzą do bieżących sum. Sala 431 w UCK pozostaje bezwzględnie zablokowana.
