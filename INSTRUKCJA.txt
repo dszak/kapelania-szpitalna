@@ -1,5 +1,17 @@
-Kapelania Szpitalna 2.9 — sala 431
-IV piętro, Endokrynologia: czerwony kafelek 431 z napisem ZAKAZ WEJŚCIA.
-Nie można jej zaznaczyć ani otworzyć zgłoszeń; pomijana przy zaznaczaniu wszystkich sal.
-Przed aktualizacją wykonaj prywatną kopię zapasową JSON. Nie usuwaj aplikacji z iPhone'a.
-Rozpakuj ZIP i wgraj jego sześć plików do repozytorium GitHub.
+KAPELANIA SZPITALNA 3.0 — PROTOTYP TESTOWY
+
+1. ZRÓB KOPIĘ obecnych danych w działającej aplikacji 2.9: Ustawienia -> Zapisz kopię. Zachowaj plik JSON w bezpiecznym miejscu.
+2. Wgraj wszystkie pliki z tego ZIP do repozytorium GitHub Pages, zastępując stare pliki. Nie usuwaj repozytorium.
+3. Odśwież aplikację na iPhonie (czasem wymagane ponowne uruchomienie aplikacji po aktualizacji service workera).
+4. Wybierz szpital u góry. Na kafelku sali: dotknięcie przełącza Komunię; przytrzymanie lub „⋯” otwiera liczniki i menu posługi.
+5. W szczegółach sali zmieniaj: łóżka, pacjentów, przyjmujących Komunię. 0 pacjentów oznacza pustą salę i czyści bieżące oznaczenia Komunii i błogosławieństwa, ale nie usuwa zadań i historii.
+6. Po pełnym obchodzie wybierz „Zatwierdź pełną aktualizację szpitala”. Można też zatwierdzić pojedynczy oddział.
+7. Historia pomiarów jest w zakładce Na dziś. Kopia JSON zawiera również liczniki i historię.
+
+UWAGI:
+- To wersja TESTOWA. Nie wprowadzaj danych osobowych ani informacji identyfikujących pacjentów.
+- Dawne zielone sale zachowują oznaczenie, ale mają nieznaną liczbę przyjmujących Komunię do czasu uzupełnienia; dlatego mogą pokazywać „?”.
+- Oddziały zamknięte są zachowane w strukturze, ale pomijane w sumach czynnych oddziałów.
+- Oddział III L zaburzeń nerwicowych MSWiA nie jest częścią rutynowej trasy; nie jest liczony w bieżącym obłożeniu.
+- Statystyka oznacza liczbę osób zwykle przyjmujących Komunię według ostatniej aktualizacji, nie liczbę faktycznie udzielonych Komunii danego dnia.
+- Kopia JSON nie jest szyfrowana. Przechowuj ją bezpiecznie.
